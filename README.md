@@ -23,7 +23,7 @@ NOTE: otc folder will be created on its own in the current directory. Make sure 
 The code produces one folder for each stock with subfolders for each category insider, news etc.
 It also produces two other files called: stcokstodoagain.txt (These were the stocks that faced 
                                         problems while fetching so have to refetch them)
-                                        stcoksdone.txt (names of successfully fetched stocks)
+                                        and stcoksdone.txt (names of successfully fetched stocks)
 
 
 
