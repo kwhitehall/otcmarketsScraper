@@ -13,9 +13,9 @@ news: extracs the 'News and Analysis' table by clicking each entry: saving the a
     
 RUN::
 
-javac -cp "path/with/selenium/jars/*:." Scrapper.java
+javac -cp "path/with/selenium/jars/*:." Scraper.java
 
-java -cp "path/with/selenium/jars/*:." Scrapper otc seeds.txt
+java -cp "path/with/selenium/jars/*:." Scraper otc seeds.txt
 
 
 NOTE: otc folder will be created on its own in the current directory. Make sure the seeds.txt path is correct.
