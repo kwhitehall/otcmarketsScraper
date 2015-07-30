@@ -12,7 +12,9 @@ news: extracs the 'News and Analysis' table by clicking each entry: saving the a
       ********************************** seperated lines.
     
 RUN::
+
 javac -cp "path/with/selenium/jars/*:." Scrapper.java
+
 java -cp "path/with/selenium/jars/*:." Scrapper otc seeds.txt
 
 
