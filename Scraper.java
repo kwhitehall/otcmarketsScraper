@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Scrapper {
+public class Scraper {
 
 	public static void extractall(String symbol, String path, WebDriver driver)
 			throws InterruptedException, IOException {
