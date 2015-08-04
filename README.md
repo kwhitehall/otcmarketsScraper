@@ -3,13 +3,16 @@
 
 The information extracted by this code is as follows:
 
-insider disclosure: extracts the 'SEC Transactions Last 2 Years' table completely by going to each successive next page
-profile: extracs the business' description by also clicking 'more' on the page and then extracting the whole description
-short sales: extracts the whole ajax loaded page
-quote: extracts the shole page
-news: extracs the 'News and Analysis' table by clicking each entry: saving the ajax loaded content then 
-      of if it's and external link it saved it into a file. Then it goes to all the next pages in the table. saves each news with
-      ********************************** seperated lines.
+INSIDER DISCLOSURE: extracts the 'SEC Transactions Last 2 Years' table completely by going to each successive next page
+
+PROFILE: extracs the business' description by also clicking 'more' on the page and then extracting the whole description
+
+SHORT SALES: extracts the whole ajax loaded page
+
+QUOTE: extracts the shole page
+
+NEWS: extracs the 'News and Analysis' table by clicking each entry: saving the ajax loaded content then 
+      of if it's and external link it saved it into a file. Then it goes to all the next pages in the table. Saves each news with ********************************** seperated lines.
     
 RUN::
 
